@@ -1,0 +1,28 @@
+.btn-sigup {
+  background-color: #5A4467;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 150px; /* измените значение, если необходимо */
+}
+
+.text {
+  text-align: center;
+  }
+.btn-sigup:hover {
+  background-color: #473552;
+}
+
+.errortxt{
+  color:red;
+}
+.registr{
+background: #ddc8bf;
+}
+.registr .container{
+  margin-top: 100px;
+}

@@ -1,0 +1,342 @@
+body.about-page {
+  margin: 0;
+  padding: 0;
+  background: rgb(221, 221, 221);
+}
+
+section.aboutus {
+  height: 100%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.containerone {
+  position: absolute;
+  top: 0;
+  left: 0;
+   background-image: url("../img/workpieces/LOGOL.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 36.33%;
+  height: 0;
+  padding-top: 69.33%; /* Соотношение сторон изображения (высота/ширина) */
+  top: -100px;
+  left: 0;
+}
+
+.containertwo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48.33%;
+  height: 0;
+  padding-top: 75.33%; /* Соотношение сторон изображения (высота/ширина) */
+  top: 49.33%;
+  left: 24.33%;
+  background-image: url("../img/workpieces/LOGOM.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.containerthree {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36%;
+  height: 0;
+  padding-top: 79.33%; /* Соотношение сторон изображения (высота/ширина) */
+  top: 100%;
+  left: 64%;
+  background-image: url("../img/workpieces/LOGOR.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.image {
+  position: relative;
+  display: flex;
+}
+.vogue {
+  display: flex;
+  margin-top: 100px;
+}
+.image4 {
+  position: relative;
+  z-index: 999999999;
+  height: 450px;
+  width: 50%;
+  margin-top: 0;
+  left: 0;
+}
+.vogue-vibes {
+  width: 50%;
+  height: 450px;
+  /* background-color: #aeadad; */
+  position: relative;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.vogue-vibes h1 {
+  font-size: 70px;
+  letter-spacing: 10px;
+  line-height: 99px;
+  margin-top: -20px;
+  white-space: nowrap;
+}
+.vogue-vibes::before {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  content: attr(data-text);
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* font-weight: bold; */
+  color: white;
+  opacity: 0.3;
+}
+
+.info1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 70%;
+  margin: 50px auto; /* Add margin between blocks */
+  line-height: 190%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.info2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 70%;
+  margin: 50px auto; /* Add margin between blocks */
+  line-height: 190%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.vibes {
+  text-align: center;
+  /* margin: 150px auto; */
+}
+
+.vibes .vibesGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  text-align: center;
+}
+.vibes h1 {
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* margin-bottom: 20px; */
+}
+
+.image5 {
+  width: 400px;
+  height: auto;
+}
+.image6 {
+  width: 400px;
+  height: auto;
+  margin-top: 480px;
+}
+
+.about-page .footer {
+  background: rgb(221, 221, 221);
+}
+.about-page .footer span {
+  color: black;
+}
+.about-page .footer-navbar li a {
+  color: black;
+}
+.about-page .footer .footer-content .text-2::before,
+.about-page .footer .footer-content .text-2::after {
+  background-color: black;
+}
+.about-page .footer .footer-content .text-3 {
+  color: black;
+}
+.about-page .footer .footer-content .text-2 {
+  color: black;
+}
+.about-page .footer .footer-content .icons img {
+  /* background-image: url("../img/blackMask.png"); */
+  z-index: 9999;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 92.19px;
+  height: 140.74px;
+  margin-top: 10px;
+}
+
+.cards {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.cards h2.header {
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.services {
+  display: flex;
+  align-items: center;
+}
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.contents .fab {
+  font-size: 70px;
+  margin: 16px 0;
+}
+.contents > * {
+  flex: 1 1 100%;
+}
+.contents:hover {
+  color: white;
+}
+.contents:hover a {
+  border-color: white;
+  background: white;
+}
+.contents-1:hover {
+  border-color: #1da1f2;
+  background: #1da1f2;
+}
+.contents-1:hover a {
+  color: #1da1f2;
+}
+.contents-2:hover {
+  border-color: #e1306c;
+  background: #e1306c;
+}
+.contents-2:hover a {
+  color: #e1306c;
+}
+.contents-3:hover {
+  border-color: #ff0000;
+  background: #ff0000;
+}
+.contents-3:hover a {
+  color: #ff0000;
+}
+.contents h2 {
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contents p {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+.contents a {
+  margin: 22px 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+.contents a:hover {
+  border-radius: 4px;
+}
+
+@media (max-width: 947px) {
+  section.aboutus {
+    height: auto; /* Замените значение на "auto" */
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+  .info1,
+  .info2 {
+    width: 90%;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .containerone {
+    width: 46.33%;
+    height: 50%;
+    margin-top: 40.33%;
+  }
+  .containertwo {
+    width: 78.33%;
+    height: 50%;
+    margin-top: -19.33%;
+  }
+  .containerthree {
+    width: 38.33%;
+    height: 50%;
+    margin-top: -39.33%;
+  }
+  .image4 {
+    width: 50%;
+    height: 240px;
+    margin-top: 0;
+  }
+  .info1,
+  .info2 {
+    width: 90%;
+    font-size: 18px; /* Уменьшите размер шрифта для лучшей читаемости */
+    line-height: 1.5; /* Используйте единицу без процентов */
+    margin: 20px auto; /* Добавьте отступы по бокам */
+  }
+  .vogue-vibes {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+  }
+  .about-page .footer .footer-content .icons img {
+    width: 42.19px;
+    height: 60.74px;
+    margin-top: -20px;
+  }
+  .vogue-vibes h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .vibes .vibesGallery {
+    margin-top: 5px;
+  }
+  .image5 {
+    width: 200px;
+    height: auto;
+  }
+  .image6 {
+    margin-top: 120px;
+    width: 200px;
+    height: auto;
+  }
+}

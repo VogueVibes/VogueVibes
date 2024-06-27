@@ -1,0 +1,321 @@
+.product-seite {
+    background: #ddc8bf;
+    padding: 20px; /* Added padding for spacing */
+}
+.product-seite h1, h3 {
+    margin-top: 0;
+}
+.product-seite .content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.product-seite .info {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: relative;
+    top: 10px;
+}
+.product-seite .name-product {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product-seite .price {
+    color: white;
+    font-weight: 900;
+}
+.product-seite .item {
+    display: inline-block;
+    width: 400px;
+    height: 450px; /* Adjust the height as desired */
+    margin: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    overflow: hidden;
+}
+
+.product-seite .item img {
+    display: block;
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+}
+.product-seite .size-chart {
+    display: flex;
+}
+
+.product-seite .size-option {
+    flex: 1;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product-seite .size-option:hover {
+    background-color: lightgray;
+}
+
+.product-seite .size-option.selected {
+    background-color: gray;
+    color: white;
+}
+
+.product-seite .item h3 {
+    margin-bottom: 5px;
+}
+
+.product-seite .item p {
+    margin-top: 5px;
+}
+
+.product-seite .item a {
+    display: block;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.product-seite .item a:hover {
+    background-color: #45a049;
+}
+.product-seite .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+  
+/* .product-seite .active, .collapsible:hover {
+    background-color: #555;
+} */
+  
+.product-seite .dropdown-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.product-seite .dropdown {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}  
+
+.product-seite .dropdown-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.product-seite .dropdown-btn:focus {
+    outline: none;
+}
+.product-seite .dropdown-content.active {
+    display: block;
+}
+.product-seite .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+    position: relative;
+    padding-bottom: 20px;
+}
+.product-seite .rating > input {
+    display: none;
+}
+.product-seite .rating > label {
+    color: grey;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0 0.1rem;
+    cursor: pointer;
+}
+.product-seite .rating > label:before {
+    content: '\2605';
+}
+.product-seite .rating > label:hover,
+.product-seite .rating > label:hover ~ label,
+.product-seite .rating > input:checked ~ label {
+    color: gold;
+}
+.product-seite .rating > label:hover:before,
+.product-seite .rating > label:hover ~ label:before,
+.product-seite .rating > input:checked ~ label:before,
+.product-seite .rating > label:hover ~ input:checked ~ label:before {
+    content: '\2605';
+}
+.product-seite .info button {
+    display: block;
+    width: 200px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #5A4467;
+    text-decoration: none;
+}
+.product-seite .info .fa-heart {
+    display: block;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.product-seite .btns {
+    display: flex;
+}
+.product-seite .info button:hover {
+    background-color: #3e2a49;
+}
+.product-seite .item a:hover {
+    background-color: #44324e;
+}
+.collapsible::after {
+    content: url(../img/arrow.png);
+    float: right;
+    rotate: 90deg;
+    min-height: 10px;
+    height: 10px;
+}
+.active:after {
+    rotate: 270deg;
+    position: relative;
+    right: 40px;
+}
+
+/* Size selection */
+.product-seite .size-chart {
+    display: flex;
+}
+  
+.product-seite .size-option {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #5A4467;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+    cursor: pointer;
+}
+  
+.product-seite .size-option:hover {
+    background-color: #5A4467;
+}
+  
+.product-seite .size-option.selected {
+    background-color: gray;
+    color: white;
+}
+.content-slider {
+    margin-left: 11%;
+    margin-top: 20px; /* Added margin for spacing */
+}
+.specification li {
+    color: white;
+}
+.content-item .list-with-bullet li {
+    color: white;
+}
+.mini-navbar {
+    display: flex;
+    font-size: 20px;
+    margin-left: 19%;
+}
+.specification {
+    display: flex;
+    margin-top: 20px; /* Added margin for spacing */
+}
+.care {
+    display: flex;
+    margin-top: 20px; /* Added margin for spacing */
+}
+.list-with-bullet {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-left: 18%;
+    font-size: 21px;
+}
+.list-with-bullet li {
+    color: white;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+  
+.list-with-bullet h2 {
+    color: white;
+}
+.washing-instructions {
+    padding: 20px;
+    margin-left: 15%;
+    color: white; /* Text color */
+    font-size: 21px;
+}
+
+.washing-instructions h1 {
+    margin-bottom: 10px;
+    text-align: center; /* Center align the heading */
+}
+
+.washing-instructions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.washing-instructions li {
+    margin-bottom: 5px;
+}
+.nav-item {
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 20px;
+    margin-right: 40px;
+    color: #FFFFFF;
+    border-bottom: 2px solid transparent;
+}
+  
+.nav-item.active {
+    border-bottom-color: purple;
+}
+  
+.content-slider .content-item {
+    display: none;
+}
+  
+.content-slider .content-item.active {
+    display: block;
+}
+.content-item {
+    width: 70%;
+}
+.content-item .info-txt {
+    color: white;
+    font-size: 21px;
+    margin-top: 5%;
+    margin-left: 14%;
+}
+.ende {
+    text-align: center;
+    margin-top: 20px; /* Added margin for spacing */
+}
+  
+.ende hr {
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 17%;
+    border: none;
+    border-top: 2px solid white;
+}
